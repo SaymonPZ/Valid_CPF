@@ -16,7 +16,7 @@ const validCPF = {
         return this.toCompare(clearCpf, cpfArray);
     },
 
-    clearCpf: function (cpf) { // retorna o cpf pontos ('.') e traços ('-')
+    clearCpf: function (cpf) { // retorna apenas os numeros do cpf
         return cpf.replace(/\D+/g, '');
     },
 
