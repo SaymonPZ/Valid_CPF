@@ -50,4 +50,4 @@ const validCPF = {
 };
 
 
-console.log(validCPF.isValid("101.288.130-08")); // verificando se é um cpf valido
+console.log(validCPF.isValid("000.000.000")); // verificando se é um cpf valido
